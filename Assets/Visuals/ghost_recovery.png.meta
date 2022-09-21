@@ -109,9 +109,9 @@ TextureImporter:
       name: ghost_recovery_0
       rect:
         serializedVersion: 2
-        x: 60
+        x: 70
         y: 360
-        width: 230
+        width: 210
         height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -120,8 +120,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 457fe8a56d5fcee45b8952e75814d7f7
-      internalID: -619310506
+      spriteID: 543441c987d322e48abde8e5a7810fe0
+      internalID: 380882259
       vertices: []
       indices: 
       edges: []
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9fede05c9136374d8e0da5f855a5ac6
-      internalID: 2144107457
+      spriteID: 2f010d5124beb7249b05d0edbdd14efe
+      internalID: -504700474
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ghost_recovery_0: -619310506
-      ghost_recovery_1: 2144107457
+      ghost_recovery_0: 380882259
+      ghost_recovery_1: -504700474
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

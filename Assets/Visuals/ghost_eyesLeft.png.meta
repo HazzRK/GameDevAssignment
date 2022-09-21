@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 050e08e195923ed4e873814b2774ff48
+guid: a7e6590ed32b8ba41b8638fdd43d620b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -109,9 +109,9 @@ TextureImporter:
       name: ghost_eyesLeft_0
       rect:
         serializedVersion: 2
-        x: 60
+        x: 70
         y: 360
-        width: 220
+        width: 210
         height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -120,8 +120,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4444f8f33e6f1c64e9a5a76e70045db7
-      internalID: 1555578806
+      spriteID: db3539dcb9f8e6446b009b512fd0191f
+      internalID: 606456270
       vertices: []
       indices: 
       edges: []
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86fd396dbedf93f4492bd64766fa9d25
-      internalID: -1576580911
+      spriteID: 3f2826d6ca5e1fc40a4e68df588b3159
+      internalID: 2067087766
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ghost_eyesLeft_0: 1555578806
-      ghost_eyesLeft_1: -1576580911
+      ghost_eyesLeft_0: 606456270
+      ghost_eyesLeft_1: 2067087766
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

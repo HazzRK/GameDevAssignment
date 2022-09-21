@@ -109,9 +109,9 @@ TextureImporter:
       name: ghost_scared_0
       rect:
         serializedVersion: 2
-        x: 60
+        x: 70
         y: 360
-        width: 230
+        width: 210
         height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -120,8 +120,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98760c836bfc440418f1a3d3eebd4600
-      internalID: 1722710592
+      spriteID: a391622c4578d364cae3aef0ef4978a1
+      internalID: -996093916
       vertices: []
       indices: 
       edges: []
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f773645b412bbf4b940ded4c29bec52
-      internalID: -388020871
+      spriteID: 5e0bc584c7b8f25409d2dbc0e5310c25
+      internalID: 1394472011
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ghost_scared_1: -388020871
-      ghost_scared_0: 1722710592
+      ghost_scared_1: 1394472011
+      ghost_scared_0: -996093916
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
