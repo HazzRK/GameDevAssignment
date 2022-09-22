@@ -1386,6 +1386,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowerPellet
       objectReference: {fileID: 0}
+    - target: {fileID: 4502509945254313527, guid: fd9dfa1d1c1fe0d4f885fef4bbf3a10c, type: 3}
+      propertyPath: m_SortingLayer
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502509945254313527, guid: fd9dfa1d1c1fe0d4f885fef4bbf3a10c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 237432577
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: fd9dfa1d1c1fe0d4f885fef4bbf3a10c, type: 3}
@@ -6244,11 +6252,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4802519762716739160, guid: 137aa08e3054f8042ad630203241d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20
+      value: -36
       objectReference: {fileID: 0}
     - target: {fileID: 4802519762716739160, guid: 137aa08e3054f8042ad630203241d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.25
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 4802519762716739160, guid: 137aa08e3054f8042ad630203241d639, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6285,6 +6293,14 @@ PrefabInstance:
     - target: {fileID: 4802519762716739162, guid: 137aa08e3054f8042ad630203241d639, type: 3}
       propertyPath: m_Name
       value: MovingPacStudent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802519762716739163, guid: 137aa08e3054f8042ad630203241d639, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802519762716739163, guid: 137aa08e3054f8042ad630203241d639, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -796651319
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -8647,8 +8663,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 237432577
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.1, y: 1.1, z: 0}
