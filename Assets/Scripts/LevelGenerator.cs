@@ -26,15 +26,27 @@ public class LevelGenerator : MonoBehaviour
 
     [SerializeField]
     private GameObject[] LevelPieces = new GameObject[8];
+    public GameObject topLeftParent;
+    private Transform topLeftTransform;
+    private GameObject topRightParent;
+    private Transform topRightTransform;
+    private GameObject bottomLeftParent;
+    private Transform bottomLeftTransform;
+    private GameObject bottomRightParent;
+    private Transform bottomRightTransform;
     private GameObject[,] topLeft;
     private Transform AutoLevelTransform;
+
+    public GameObject manualLevelLayout;
 
     // Start is called before the first frame update
     void Start()
     {
+        Destroy(manualLevelLayout);
         topLeft = new GameObject[levelMap.GetLength(0), levelMap.GetLength(1)];
+        topLeftTransform = topLeftParent.GetComponent<Transform>();
         AutoLevelTransform = GetComponent<Transform>();
-        AutoLevelTransform.position = new Vector3(0f, 0f, 0f);
+        topLeftTransform.position = new Vector3(0f, 0f, 0f);
         LevelPieces[0] = null;
         for (int i = 0; i<levelMap.GetLength(0);i++)
         {
@@ -46,7 +58,8 @@ public class LevelGenerator : MonoBehaviour
                 } else
                 {
                     Vector3 pos = new Vector3(a*3.2f, i*-3.2f, 0f);
-                    topLeft[i, a] = Instantiate(LevelPieces[levelMap[i, a]], pos, Quaternion.identity, AutoLevelTransform);
+                    topLeft[i, a] = Instantiate(LevelPieces[levelMap[i, a]], pos, Quaternion.identity, topLeftTransform);
+                    topLeft[i, a].GetComponent<SpriteRenderer>().sortingOrder--;
                 }
             }
         }
@@ -274,7 +287,19 @@ public class LevelGenerator : MonoBehaviour
                 }
             }
         }
-        AutoLevelTransform.position = new Vector3(70f, 0f, 0f);
+        
+        topLeftTransform.position = new Vector3(0f, 0f, 0f);
+        AutoLevelTransform.position = new Vector3(0f, 0f, 0f);
+
+        topRightParent = Instantiate(topLeftParent, new Vector3(levelMap.GetLength(1) * 3.2f*2 -3.2f, 0f, 0f), Quaternion.identity, AutoLevelTransform);
+        bottomLeftParent = Instantiate(topLeftParent, new Vector3(0f, (levelMap.GetLength(0) * -3.2f)*2+6.5f, 0f), Quaternion.identity, AutoLevelTransform);
+        bottomRightParent = Instantiate(bottomLeftParent, new Vector3(levelMap.GetLength(1) * 3.2f * 2 - 3.2f, (levelMap.GetLength(0) * -3.2f) * 2 + 6.5f, 0f), Quaternion.identity, AutoLevelTransform);
+
+        topRightParent.transform.localScale = new Vector3(-1, 1, 1);
+        bottomLeftParent.transform.localScale = new Vector3(1, -1, 1);
+        bottomRightParent.transform.localScale = new Vector3(-1, -1, 1);
+
+        AutoLevelTransform.position = new Vector3(-39.2f, 44f, 0f);
     }
 
     // Update is called once per frame
