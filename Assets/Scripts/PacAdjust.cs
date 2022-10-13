@@ -21,7 +21,7 @@ public class PacAdjust : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+       /*
         if (item.transform.position == new Vector3(-36.0f, 41f, 0.0f))
         {
             Quaternion target = Quaternion.Euler(0, 0, 0);
@@ -49,5 +49,6 @@ public class PacAdjust : MonoBehaviour
             float dist = Vector3.Distance(item.transform.position, new Vector3(-36.0f, 41f, 0.0f));
             tweener.AddTween(item.transform, item.transform.position, new Vector3(-36.0f, 41f, 0.0f), dist / 8f);
         }
+       */
     }
 }
