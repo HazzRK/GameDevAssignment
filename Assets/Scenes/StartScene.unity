@@ -709,7 +709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8960435970841396410, guid: 15a7ca38bc9825042981c731d8d37f27, type: 3}
       propertyPath: m_Color.r
-      value: 0.8563466
+      value: 0.60277176
       objectReference: {fileID: 0}
     - target: {fileID: 8960435970841396412, guid: 15a7ca38bc9825042981c731d8d37f27, type: 3}
       propertyPath: m_Name
@@ -1196,7 +1196,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2def70324c0be1145b5a1620049a3aed, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1955,7 +1955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8960435970841396410, guid: 15a7ca38bc9825042981c731d8d37f27, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.34178925
       objectReference: {fileID: 0}
     - target: {fileID: 8960435970841396410, guid: 15a7ca38bc9825042981c731d8d37f27, type: 3}
       propertyPath: m_Color.g
@@ -1963,7 +1963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8960435970841396410, guid: 15a7ca38bc9825042981c731d8d37f27, type: 3}
       propertyPath: m_Color.r
-      value: 0.16661167
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8960435970841396412, guid: 15a7ca38bc9825042981c731d8d37f27, type: 3}
       propertyPath: m_Name
