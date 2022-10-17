@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: HUD
+    uniqueID: 1980704625
+    locked: 0
   - name: Level
     uniqueID: 237432577
     locked: 0
